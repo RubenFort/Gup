@@ -5,4 +5,8 @@
     <color name="colorAccent">#03DAC5</color>
 
     <color name="black_overlay">#66000000</color>
+
+    <color name="texto_normal">#5C6BC0</color>
+    <color name="texto_accent">#EF5350</color>
+    <color name="texto_rojo">#F44336</color>
 </resources>

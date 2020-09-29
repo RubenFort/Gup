@@ -15,7 +15,6 @@
         android:layout_marginEnd="24dp"
         android:gravity="right|top"
         android:orientation="vertical"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -24,24 +23,32 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_login" />
+            android:text="@string/title_login"
+            android:textAppearance="@style/Titulo" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100">
 
             <TextView
                 android:id="@+id/textView2"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/not_account" />
+                android:layout_weight="50"
+                android:text="@string/not_account"
+                android:textAppearance="@style/TextoNormal"
+                 />
 
             <Button
                 android:id="@+id/button"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="50"
+                android:padding="5dp"
+                android:paddingStart="16dp"
+                android:textColor="@color/texto_rojo"
                 android:text="Button" />
         </LinearLayout>
 
