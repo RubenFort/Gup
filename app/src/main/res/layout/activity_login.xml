@@ -49,7 +49,7 @@
                 android:padding="5dp"
                 android:paddingStart="16dp"
                 android:textColor="@color/texto_rojo"
-                android:text="Button" />
+                android:text="@string/register_btn" />
         </LinearLayout>
 
     </LinearLayout>
@@ -62,7 +62,16 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="@+id/act_login_title_lin"
         app:layout_constraintStart_toStartOf="@+id/act_login_title_lin"
-        app:layout_constraintTop_toBottomOf="@+id/act_login_title_lin"></LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/act_login_title_lin">
+
+        <EditText
+            android:id="@+id/act_login_email_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/email_hint"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/act_login_buttons_lin"

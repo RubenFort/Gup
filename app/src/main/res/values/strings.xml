@@ -7,4 +7,6 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_login">Login</string>
     <string name="not_account">¿No Tienes Cuenta?</string>
+    <string name="register_btn">Crea Tu Cuenta</string>
+    <string name="email_hint">E-Mail</string>
 </resources>
