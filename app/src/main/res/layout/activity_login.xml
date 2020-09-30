@@ -38,8 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="50"
                 android:text="@string/not_account"
-                android:textAppearance="@style/TextoNormal"
-                 />
+                android:textAppearance="@style/TextoNormal" />
 
             <Button
                 android:id="@+id/button"
