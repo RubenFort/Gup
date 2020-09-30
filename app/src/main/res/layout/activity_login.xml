@@ -45,10 +45,11 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="50"
+                android:backgroundTint="#00FFFFFF"
                 android:padding="5dp"
                 android:paddingStart="16dp"
-                android:textColor="@color/texto_rojo"
-                android:text="@string/register_btn" />
+                android:text="@string/register_btn"
+                android:textColor="@color/texto_rojo" />
         </LinearLayout>
 
     </LinearLayout>
