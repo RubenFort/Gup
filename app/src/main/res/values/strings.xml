@@ -9,4 +9,5 @@
     <string name="not_account">¿No Tienes Cuenta?</string>
     <string name="register_btn">Crea Tu Cuenta</string>
     <string name="email_hint">E-Mail</string>
+    <string name="password_hint">Tu Contraseña</string>
 </resources>
